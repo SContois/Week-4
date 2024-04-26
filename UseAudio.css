@@ -1,0 +1,88 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    text-shadow: black;
+    font-family: cursive;
+}
+h2 {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(black,blueviolet,rgb(160, 86, 230),rgb(192,137,243));
+    background-size: 100vw 100vh;
+}
+
+.centerbutton{
+    text-align: center;
+}
+
+#submit {
+    background-color: black;
+    color: blueviolet;
+    border: solid;
+}
+
+#submit:hover {
+    background-color: blueviolet;
+    color: black;
+    transition: 0.3s;
+
+}
+
+#submit:active {
+    opacity: 0.3;
+    transition: 0.1s;
+}
+
+#checker {
+    background-color: black;
+    color: blueviolet;
+    border: solid;
+}
+
+#checker:hover {
+    background-color: blueviolet;
+    border-color: black;
+    color: black;
+    transition: 0.3s;
+}
+
+#checker:active {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+#inputText {
+    text-align: center;
+}
+
+.textbox {
+    text-align: center;
+    border-color: blueviolet;
+    border-width: 3px;
+}
+
+#result {
+    text-align: center;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.inputboxes {
+    text-align: center;
+}
+
+
+#soundcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title {
+font-size: large;
+font-weight: bolder;
+}
